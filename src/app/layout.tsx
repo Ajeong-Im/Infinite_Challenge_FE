@@ -6,10 +6,7 @@ type Props = { children: ReactNode };
 export default function Layout({ children }: Props) {
   return (
     <html lang="en">
-      <body>
-        <div className="text-red-600">왜 안 됨?</div>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

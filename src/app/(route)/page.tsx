@@ -1,3 +1,10 @@
+import Main from "./_component/Main";
+import Title from "./_component/atoms/Title";
+
 export default function page() {
-  return <div>안녕티비</div>;
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 }
